@@ -28,7 +28,7 @@ HitMap.prototype = {
 		for (var i = 0; i < points_array.length; i++) {
 			pixel = this.ctx_substrate.getImageData(points_array[i][0], points_array[i][1], 1, 1);
 			if (pixel.data[0] == 0 && pixel.data[1] == 0 && pixel.data[2] == 0) {
-				console.log('hit');
+//				console.log('hit');
 			}
 		}
 	}
